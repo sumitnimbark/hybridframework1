@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-19T23:41:12 IST" name="RegressionSuite" finished-at="2019-10-19T23:43:59 IST" duration-ms="167452">
+    <groups>
+    </groups>
+    <test started-at="2019-10-19T23:41:12 IST" name="RegressionTest" finished-at="2019-10-19T23:43:59 IST" duration-ms="167452">
+      <class name="Testcases.VerifyHomePage">
+        <test-method signature="TestHomePage()[pri:0, instance:Testcases.VerifyHomePage@4cc451f2]" started-at="2019-10-19T23:42:14 IST" name="TestHomePage" finished-at="2019-10-19T23:42:35 IST" duration-ms="20867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+      </class> <!-- Testcases.VerifyHomePage -->
+      <class name="Testcases.VerifyLoginPage">
+        <test-method signature="TestLoginPage()[pri:0, instance:Testcases.VerifyLoginPage@4a94ee4]" started-at="2019-10-19T23:41:12 IST" name="TestLoginPage" finished-at="2019-10-19T23:42:12 IST" duration-ms="60568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.VerifyLoginPage@4a94ee4]" started-at="2019-10-19T23:42:12 IST" name="tearDown" finished-at="2019-10-19T23:42:14 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.VerifyLoginPage -->
+      <class name="Testcases.VerifyLoginPageWithReport">
+        <test-method signature="TestLoginPage()[pri:0, instance:Testcases.VerifyLoginPageWithReport@6379eb]" started-at="2019-10-19T23:42:35 IST" name="TestLoginPage" finished-at="2019-10-19T23:43:11 IST" duration-ms="36177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.VerifyLoginPageWithReport@6379eb]" started-at="2019-10-19T23:43:11 IST" name="tearDown" finished-at="2019-10-19T23:43:14 IST" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.VerifyLoginPageWithReport -->
+      <class name="Testcases.VerifyLoginPageWithReport2">
+        <test-method signature="TestLoginPage()[pri:0, instance:Testcases.VerifyLoginPageWithReport2@294425a7]" started-at="2019-10-19T23:43:14 IST" name="TestLoginPage" finished-at="2019-10-19T23:43:57 IST" duration-ms="42691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Testcases.VerifyLoginPageWithReport2@294425a7]" started-at="2019-10-19T23:43:57 IST" name="tearDown" finished-at="2019-10-19T23:43:59 IST" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLoginPage status=SUCCESS method=VerifyLoginPageWithReport2.TestLoginPage()[pri:0, instance:Testcases.VerifyLoginPageWithReport2@294425a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.VerifyLoginPageWithReport2 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
